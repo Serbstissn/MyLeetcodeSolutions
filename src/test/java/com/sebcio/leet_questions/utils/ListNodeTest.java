@@ -1,7 +1,8 @@
-package com.sebcio.leet_questions.easy;
+package com.sebcio.leet_questions.utils;
 
 import static org.assertj.core.api.Assertions.*;
 
+import com.sebcio.leet_questions.utils.ListNode;
 import org.junit.jupiter.api.Test;
 
 public class ListNodeTest {
@@ -11,7 +12,7 @@ public class ListNodeTest {
         ListNode newNode = new ListNode(1);
 
         assertThat(newNode.next()).isEqualTo(null);
-        assertThat(newNode.getValue()).isEqualTo(1);
+        assertThat(newNode.val).isEqualTo(1);
     }
 
     @Test

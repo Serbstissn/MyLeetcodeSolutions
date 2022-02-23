@@ -1,5 +1,7 @@
 package com.sebcio.leet_questions.easy;
 
+import com.sebcio.leet_questions.utils.ListNode;
+
 public class MergeTwoSortedList {
 
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
@@ -50,7 +52,7 @@ public class MergeTwoSortedList {
         if(list1 == null) return list2;
         if(list2 == null) return list1;
 
-        if(list1.getValue() <= list2.getValue()){
+        if(list1.val <= list2.val){
             list1.setNext(mergeTwoLists(list1.next(), list2));
             return list1;
         }else{

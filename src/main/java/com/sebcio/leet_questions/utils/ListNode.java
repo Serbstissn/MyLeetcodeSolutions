@@ -1,4 +1,4 @@
-package com.sebcio.leet_questions.easy;
+package com.sebcio.leet_questions.utils;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,12 +12,12 @@ import lombok.Setter;
 @AllArgsConstructor
 public class ListNode {
     
-    private int value;
+    public int val;
 
-    private ListNode next;
+    public ListNode next;
 
     public ListNode(int val){
-        this.value = val;
+        this.val = val;
         this.next = null;
     }
 

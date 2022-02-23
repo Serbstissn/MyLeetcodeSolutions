@@ -1,4 +1,4 @@
-package com.sebcio.leet_questions.easy;
+package com.sebcio.leet_questions.utils;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Interval {
 
-    private int start;
+    public int start;
     
-    private int end;
+    public int end;
 }

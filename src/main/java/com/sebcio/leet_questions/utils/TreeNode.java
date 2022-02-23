@@ -1,4 +1,4 @@
-package com.sebcio.leet_questions.easy;
+package com.sebcio.leet_questions.utils;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -12,14 +12,14 @@ import lombok.ToString;
 @ToString(exclude = {"left" , "right"})
 public class TreeNode {
 
-    int val;
-    TreeNode left;
-    TreeNode right;
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
 
     TreeNode() {
     }
 
-    TreeNode(int val) {
+    public TreeNode(int val) {
         this.val = val;
     }
 

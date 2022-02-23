@@ -1,5 +1,7 @@
 package com.sebcio.leet_questions.easy;
 
+import com.sebcio.leet_questions.utils.TreeNode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;

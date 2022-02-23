@@ -1,5 +1,6 @@
 package com.sebcio.leet_questions.easy;
 
+import com.sebcio.leet_questions.utils.TreeNode;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;

@@ -1,5 +1,7 @@
 package com.sebcio.leet_questions.easy;
 
+import com.sebcio.leet_questions.utils.TreeNode;
+
 public class SameTree {
     public static boolean isSameTree(TreeNode p, TreeNode q) {
         if(p == null || q==null) return p == q;

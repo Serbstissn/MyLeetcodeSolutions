@@ -1,5 +1,7 @@
 package com.sebcio.leet_questions.easy;
 
+import com.sebcio.leet_questions.utils.ListNode;
+
 public class LinkedListCycle {
 
     public static boolean hasCycle(ListNode head) {

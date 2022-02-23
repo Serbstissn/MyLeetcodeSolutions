@@ -2,6 +2,7 @@ package com.sebcio.leet_questions.easy;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.sebcio.leet_questions.utils.Interval;
 import org.junit.jupiter.api.Test;
 
 public class MeetingRoomsTest {

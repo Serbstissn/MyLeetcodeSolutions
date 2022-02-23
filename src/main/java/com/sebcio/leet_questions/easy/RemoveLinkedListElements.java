@@ -1,5 +1,7 @@
 package com.sebcio.leet_questions.easy;
 
+import com.sebcio.leet_questions.utils.ListNode;
+
 public class RemoveLinkedListElements {
 
     public static ListNode removeElements(ListNode head, int val) {
@@ -27,7 +29,7 @@ public class RemoveLinkedListElements {
             return null;
         
         head.setNext(removeElements(head.next(), val));
-        return head.getValue() == val ? head.next() : head;
+        return head.val == val ? head.next() : head;
     }
 
 }

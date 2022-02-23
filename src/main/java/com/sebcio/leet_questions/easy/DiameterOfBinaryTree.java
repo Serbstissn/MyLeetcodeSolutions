@@ -1,5 +1,7 @@
 package com.sebcio.leet_questions.easy;
 
+import com.sebcio.leet_questions.utils.TreeNode;
+
 public class DiameterOfBinaryTree {
 
     //    global variable for storing max diameter

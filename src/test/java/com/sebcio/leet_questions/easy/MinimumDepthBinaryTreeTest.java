@@ -2,6 +2,7 @@ package com.sebcio.leet_questions.easy;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.sebcio.leet_questions.utils.TreeNode;
 import org.junit.jupiter.api.Test;
 
 public class MinimumDepthBinaryTreeTest {

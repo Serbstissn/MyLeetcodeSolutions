@@ -1,5 +1,7 @@
 package com.sebcio.leet_questions.easy;
 
+import com.sebcio.leet_questions.utils.ListNode;
+
 public class PalindromeLinkedList {
 
     public static boolean isPalindrome(ListNode head) {
@@ -48,7 +50,7 @@ public class PalindromeLinkedList {
         if(fast != null)
             slow = slow.next();
 
-        while(reverse!= null && reverse.getValue() == slow.getValue()){
+        while(reverse!= null && reverse.val == slow.val){
             reverse = reverse.next();
             slow = slow.next();
         }
